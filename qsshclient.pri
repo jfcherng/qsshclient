@@ -3,10 +3,10 @@ QT += core network
 CONFIG += c++11
 
 HEADERS += \
-    $$PWD/src/*.h \
+    $$files($$PWD/src/*.h) \
 
 SOURCES += \
-    $$PWD/src/*.cpp \
+    $$files($$PWD/src/*.cpp) \
 
 INCLUDEPATH += $$PWD/src/
 
